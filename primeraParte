@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        suma(20, 40, 60);
+        suma(1, 2, 3);
 
         Coche miCoche = new Coche();
 
@@ -21,7 +21,7 @@ public class Main {
 }
 
 class Coche {
-    public int numeroDePuertas = 4;
+    public int numeroDePuertas = 5;
 
     public void sumarPuertas(){
 
